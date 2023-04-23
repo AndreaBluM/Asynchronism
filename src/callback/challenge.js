@@ -30,7 +30,7 @@ fetchData(`${API}/products`, function (error1,data1) {
       if (error3) return console.error(error3);
       console.log(data1[0]);
       console.log(data2.title);
-      console.log(data3.name);
+      console.log(data3.name)
     })
   })
 })
